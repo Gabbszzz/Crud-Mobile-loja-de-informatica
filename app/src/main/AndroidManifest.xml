@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjetoFinalAndroid"
+        tools:targetApi="31">
+        <activity
+            android:name=".alterar"
+            android:exported="false" />
+        <activity
+            android:name=".cadastrarProduto"
+            android:exported="false" />
+        <activity
+            android:name=".ListaPerifericos"
+            android:exported="false" />
+        <activity
+            android:name=".ListaFonte"
+            android:exported="false" />
+        <activity
+            android:name=".ListaPlacaVideo"
+            android:exported="false" />
+        <activity
+            android:name=".ListaMem"
+            android:exported="false" />
+        <activity
+            android:name=".ListaMae"
+            android:exported="false" />
+        <activity
+            android:name=".ListaAll"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".menu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

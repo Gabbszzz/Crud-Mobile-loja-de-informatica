@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#525252"
+    android:orientation="vertical"
+    tools:context=".ListaPlacaVideo">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25sp"
+        android:background="#444444"
+        android:fontFamily="@font/arbutus"
+        android:gravity="center"
+        android:text="Placas De Video"
+        android:textColor="#87FF0000"
+        android:textSize="34sp" />
+
+    <ListView
+        android:id="@+id/lista_pv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10sp" />
+</LinearLayout>

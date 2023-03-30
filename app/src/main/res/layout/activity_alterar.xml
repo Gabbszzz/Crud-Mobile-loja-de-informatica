@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#525252"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".alterar">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:background="#444444"
+        android:fontFamily="@font/arbutus"
+        android:gravity="center|top"
+        android:text="Atualizar"
+        android:textColor="#87FF0000"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textColor="#87FF0000"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/input_nome_att"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#87FF0000" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo"
+        android:textColor="#87FF0000"
+        android:textSize="34sp" />
+
+    <RadioGroup
+        android:id="@+id/RadioGpAtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="15sp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioBtn1att"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Placa Mãe" />
+
+        <RadioButton
+            android:id="@+id/radioBtn2att"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memoria RAM" />
+
+        <RadioButton
+            android:id="@+id/radioBtn3att"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Placa de Video" />
+
+        <RadioButton
+            android:id="@+id/radioBtn4att"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fonte" />
+
+        <RadioButton
+            android:id="@+id/radioBtn5att"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perifericos" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preço"
+        android:textColor="#87FF0000"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/input_preco_att"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#87FF0000" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Condição"
+        android:textColor="#87FF0000"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/input_cond_att"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#87FF0000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_atualizar"
+            android:layout_marginEnd="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#87FF0000"
+            android:text="Atualizar" />
+
+        <Button
+            android:id="@+id/btn_deletar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#87FF0000"
+            android:text="Deletar" />
+
+    </LinearLayout>
+
+</LinearLayout>

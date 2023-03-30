@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#525252"
+    android:gravity="center|top"
+    android:padding="5sp"
+    android:orientation="vertical"
+    tools:context=".menu">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25sp"
+        android:background="#444444"
+        android:fontFamily="@font/arbutus"
+        android:gravity="center"
+        android:text="Catalogo"
+        android:textColor="#87FF0000"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:backgroundTint="#544A4747"
+        android:text="Adicionar"
+        android:textColor="#87FF0000" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:layout_marginBottom="50sp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn_AllCatalogo"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:background="@drawable/computer" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50sp"
+            android:gravity="end">
+
+            <ImageButton
+                android:id="@+id/btn_MaeCatalogo"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:layout_marginEnd="15sp"
+                android:background="@drawable/motherboard" />
+
+            <ImageButton
+                android:id="@+id/btn_MemCatalogo"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:background="@drawable/ram" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50sp"
+            android:gravity="start">
+
+            <ImageButton
+                android:id="@+id/btn_PlVidCatalogo"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:background="@drawable/graphiccard" />
+
+            <ImageButton
+                android:id="@+id/btn_FonteCatalogo"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:layout_marginStart="15sp"
+                android:background="@drawable/powersupply" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn_PerifericosCatalogo"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:background="@drawable/perif" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

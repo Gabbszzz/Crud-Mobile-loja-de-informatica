@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#525252"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150sp"
+        android:background="#444444"
+        android:fontFamily="@font/arbutus"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="#87FF0000"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#87FF0000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/input_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="textNoSuggestions|textPersonName"
+        android:textColor="#87FF0000" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha"
+        android:textColor="#87FF0000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/input_passworld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="textNoSuggestions|textPersonName|textPassword"
+        android:textColor="#87FF0000" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Lembrar Usuario?" />
+
+    <Button
+        android:id="@+id/btn_Logar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3FFF0000"
+        android:text="Logar" />
+</LinearLayout>

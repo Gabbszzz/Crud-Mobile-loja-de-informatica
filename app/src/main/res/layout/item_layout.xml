@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5sp"
+    android:background="#343434">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        app:cardBackgroundColor="#605E5E">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="110sp"
+                android:layout_marginTop="13sp"
+                android:layout_height="120sp"
+                android:layout_weight="0"
+                android:background="@drawable/computer" />
+
+            <LinearLayout
+                android:layout_width="95sp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="5sp"
+                android:layout_weight="0"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_titulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="Titulo"
+                    android:textColor="#87FF0000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="Preço:"
+                    android:textColor="#87FF0000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="Condição:"
+                    android:textColor="#87FF0000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="Tipo:"
+                    android:textColor="#87FF0000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="$$"
+                    android:textColor="#87FF0000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txt_cond"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="aaa"
+                    android:textColor="#87FF0000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txt_tipo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="aaa"
+                    android:textColor="#87FF0000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="TextView"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.appcompat.widget.LinearLayoutCompat>

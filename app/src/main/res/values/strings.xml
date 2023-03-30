@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProjetoFinalAndroid</string>
+    <string name="imageType1">"@drawable/computer"</string>
+    <string name="imageType2">"@drawable/graphiccard"</string>
+    <string name="imageType3">"@drawable/motherboard"</string>
+    <string name="imageType4">"@drawable/perif"</string>
+    <string name="imageType5">"@drawable/powersupply"</string>
+    <string name="imageType6">"@drawable/ram"</string>
+</resources>
